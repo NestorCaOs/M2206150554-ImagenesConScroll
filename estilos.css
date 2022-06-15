@@ -7,7 +7,7 @@
 .slider ul{
 	display: flex;
 	padding: 0;
-	width: 1000%;
+	width: 800%;
 
 	animation: cambio 30s infinite alternate linear;
 	/*animation: name duration timing-function delay iteration-count direction fill-mode;*/
@@ -57,19 +57,4 @@
 
 	90% {margin-left: -900%;}
 	100% {margin-left: -900%;}
-
 }
-/*@keyframes cambio{
-	0% {margin-left: 0%;}
-	25% {margin-left: 0%;}
-
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-
-	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
-
-	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
-
-}*/
